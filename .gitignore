@@ -1,0 +1,31 @@
+# Lazarus / Free Pascal build outputs
+lib/
+*.o
+*.ppu
+*.or
+*.compiled
+*.bak
+*.lps
+lazarus/WristSim
+lazarus/WristSim.exe
+lazarus/backup/
+
+# Delphi / RAD Studio build outputs
+Win32/
+Win64/
+__history/
+__recovery/
+*.dcu
+*.exe
+*.local
+*.identcache
+*.stat
+*.dproj.local
+*.tvsconfig
+*.rsm
+*.map
+*.res
+
+# OS files
+.DS_Store
+Thumbs.db
