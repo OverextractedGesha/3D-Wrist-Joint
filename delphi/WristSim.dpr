@@ -2,9 +2,7 @@ program WristSim;
 
 uses
   Vcl.Forms,
-  uMainForm in 'uMainForm.pas' {FormMain},
-  uWristPhysics in 'uWristPhysics.pas',
-  uWristRender in 'uWristRender.pas';
+  uMainForm in 'uMainForm.pas' {FormMain};
 
 {$R *.res}
 

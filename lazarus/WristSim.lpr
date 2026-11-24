@@ -11,9 +11,7 @@ uses
   {$ENDIF}
   Interfaces,
   Forms,
-  uMainForm,
-  uWristPhysics,
-  uWristRender;
+  uMainForm;
 
 {$R *.res}
 

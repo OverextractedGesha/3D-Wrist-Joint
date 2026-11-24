@@ -20,16 +20,14 @@ Biomechanical 3D wrist joint simulation for **EB234506 Biomodeling** (Biomedical
 ├── lazarus/                 # Cross-platform Lazarus 4.x / FPC 3.2+ (OpenGLContext + TAChart)
 │   ├── WristSim.lpi
 │   ├── WristSim.lpr
-│   ├── uMainForm.pas / .lfm
-│   ├── uWristPhysics.pas
-│   ├── uWristRender.pas
+│   ├── uMainForm.pas        # Single-file physics, 3D OpenGL renderer, and UI
+│   ├── uMainForm.lfm
 │   └── LAZARUS_TUTORIAL.md  # Step-by-step beginner guide
 └── delphi/                  # Windows Embarcadero Delphi 11/12/13 VCL (OpenGL + TeeChart)
     ├── WristSim.dproj
     ├── WristSim.dpr
-    ├── uMainForm.pas / .dfm
-    ├── uWristPhysics.pas
-    └── uWristRender.pas
+    ├── uMainForm.pas        # Single-file physics, 3D OpenGL renderer, and UI
+    └── uMainForm.dfm
 ```
 
 ## Quick Start
